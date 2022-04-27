@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     booEl.style.cursor = 'pointer';
   
     // quando este boo for clicado...
-    booEl.addEventListener('click', e => {
+    booEl.addEventListener('mouseenter', e => {
       let booEl = e.currentTarget;
       // largura e altura máximas até onde ele pode ir
       let larguraDisponivelNaPagina = document.body.clientWidth;
